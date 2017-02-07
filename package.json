@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "mocha --compilers js:babel-register -w reducer.test.js"
+    "test": "mocha --compilers js:babel-register -w *.test.js"
   },
   "dependencies": {
     "babel-core": "^6.22.1",
